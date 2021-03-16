@@ -33,8 +33,9 @@ public class TV {
 		return canal;
 	}
 	public void setCanal(int canal) {
-		if(canal <= 120 && canal >= 1 && estado == true)
-		this.canal = canal;
+		if(canal <= 120 && canal >= 1 && estado == true) {
+			this.canal = canal;
+		}
 	}
 
 	
@@ -52,7 +53,7 @@ public class TV {
 		return volumen;
 	}
 	public void setVolumen(int volumen) {
-		this.volumen = volumen;
+			this.volumen = volumen;
 	}
 
 	
