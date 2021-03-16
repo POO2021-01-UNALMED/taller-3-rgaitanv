@@ -7,10 +7,10 @@ public class Control {
 	
 	
 	public void turnOn() {
-		tv.turnOn();
+		this.tv.turnOn();
 	}
 	public void turnOff() {
-		tv.turnOff();
+		this.tv.turnOff();
 	}
 	
 	
@@ -35,14 +35,18 @@ public class Control {
 	
 	
 	public void setCanal( int canal ) {
-		tv.setCanal(canal);
+		this.tv.setCanal(canal);
 	}
 	
 	
 	public void enlazar(TV tv) {
 		this.tv = tv;
-		tv.setControl(this);
+		this.tv.setControl(this);
 	}
+	
+	
+	
+	
 	
 	
 	
